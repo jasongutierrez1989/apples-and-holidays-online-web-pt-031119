@@ -53,7 +53,7 @@ def all_winter_holiday_supplies(holiday_hash)
         array = data
       end
       if attribute == :new_years
-        array + data
+        array << data
       end
     end
   end

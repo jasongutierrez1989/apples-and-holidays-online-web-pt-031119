@@ -50,13 +50,14 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |attribute, data|
       if attribute == :christmas
-        array[] = data
+        array = data
       end
       if attribute == :new_years
         array + data
       end
     end
   end
+  return data
 end
 
 def all_supplies_in_holidays(holiday_hash)

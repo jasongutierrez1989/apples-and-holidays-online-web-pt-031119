@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |key, value|{
     puts key
-    value.each |key, values|{
+    value.each do |key, values|{
       puts key, values
     }
   }

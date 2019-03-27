@@ -52,6 +52,7 @@ def all_winter_holiday_supplies(holiday_hash)
       if attribute == :winter
       return data
     end
+    end
   end
 end
 
